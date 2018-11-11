@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f7d4ca0ce2cde664aa80e204de6b8ffd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Login
+  fontNames:
+  - Login
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 643a0aaa2b4acd44da7d56defec2aa84, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

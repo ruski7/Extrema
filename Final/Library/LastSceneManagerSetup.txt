@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/David Shcherbina/Documents/GitHub/Cooking-Lab/Cooking-Lab/Assets/Scenes/Hao.unity
+  isLoaded: 1
+  isActive: 1
