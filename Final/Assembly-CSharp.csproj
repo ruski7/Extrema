@@ -94,11 +94,11 @@
     <Compile Include="Assets\Scripts\PassBy.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerHealthManager.cs" />
-    <Compile Include="Assets\Scripts\Test Script.cs" />
     <Compile Include="Assets\Scripts\TowerBullets.cs" />
     <Compile Include="Assets\Scripts\TowerController.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="UnityEditor.StandardEvents">
+<<<<<<< HEAD
       <HintPath>C:/Users/Kusanagi/Documents/GitHub/Extrema/Final/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -109,6 +109,18 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Kusanagi/Documents/GitHub/Extrema/Final/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+=======
+      <HintPath>C:/Users/David Shcherbina/Documents/GitHub/Extrema/Final/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/David Shcherbina/Documents/GitHub/Extrema/Final/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/David Shcherbina/Documents/GitHub/Extrema/Final/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/David Shcherbina/Documents/GitHub/Extrema/Final/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+>>>>>>> 7bb10f993083332a3a8f0c7446fd59fe3c5c628a
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
