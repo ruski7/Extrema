@@ -27,8 +27,6 @@ public class PlayerHealthManager : MonoBehaviour {
             gameObject.SetActive(false);
             FindObjectOfType<Manager>().EndGame();
 
-            FindObjectOfType<EViewMech>().StopMovement();
-
             //FindObjectOfType<EViewMech>().stopMovement();
 
         }
