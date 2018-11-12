@@ -4,13 +4,16 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Platonic_1
-    100004: Torus
-    100006: Torus_1
+    100002: CINEMA_4D_Editor
+    100004: Platonic_1
+    100006: Torus
+    100008: Torus_1
     400000: //RootNode
-    400002: Platonic_1
-    400004: Torus
-    400006: Torus_1
+    400002: CINEMA_4D_Editor
+    400004: Platonic_1
+    400006: Torus
+    400008: Torus_1
+    2000000: CINEMA_4D_Editor
     2100000: No Name
     2300000: Platonic_1
     2300002: Torus
@@ -21,9 +24,6 @@ ModelImporter:
     4300000: Torus_1
     4300002: Torus
     4300004: Platonic_1
-    6400000: Platonic_1
-    6400002: Torus
-    6400004: Torus_1
     7400000: CINEMA_4D_Main
     9500000: //RootNode
   externalObjects: {}
@@ -53,35 +53,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: CINEMA_4D_Main
-      takeName: CINEMA_4D_Main
-      firstFrame: 0
-      lastFrame: 90
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
