@@ -1287,43 +1287,12 @@ Prefab:
       propertyPath: Player
       value: 
       objectReference: {fileID: 2081840771}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_Interpolate
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_CollisionDetection
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435271251588414, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 114436885711183754, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: moveSpeed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
       propertyPath: m_Name
       value: BossMinion (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114436885711183754, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &460661323
@@ -1416,43 +1385,12 @@ Prefab:
       propertyPath: Player
       value: 
       objectReference: {fileID: 2081840771}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_Interpolate
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_CollisionDetection
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435271251588414, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 114436885711183754, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: moveSpeed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
       propertyPath: m_Name
       value: BossMinion (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114436885711183754, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &609976433
@@ -1675,6 +1613,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1263343590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
+    type: 2}
+  m_PrefabInternal: {fileID: 447569708}
+--- !u!114 &1263343591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1263343590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3287b55edc6e96647ae76020c9514292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 1000
+  moveSpeed: 6
+  Player: {fileID: 2081840771}
 --- !u!1 &1392200417
 GameObject:
   m_ObjectHideFlags: 0
@@ -1792,6 +1749,44 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1392200417}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1451631185 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
+    type: 2}
+  m_PrefabInternal: {fileID: 590651567}
+--- !u!114 &1451631186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1451631185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3287b55edc6e96647ae76020c9514292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 1000
+  moveSpeed: 6
+  Player: {fileID: 2081840771}
+--- !u!1 &1551926365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
+    type: 2}
+  m_PrefabInternal: {fileID: 2091845435}
+--- !u!114 &1551926366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1551926365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3287b55edc6e96647ae76020c9514292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 1000
+  moveSpeed: 6
+  Player: {fileID: 2081840771}
 --- !u!1 &1590530304
 GameObject:
   m_ObjectHideFlags: 0
@@ -2581,39 +2576,8 @@ Prefab:
       propertyPath: Player
       value: 
       objectReference: {fileID: 2081840771}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_Interpolate
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_CollisionDetection
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435271251588414, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 114436885711183754, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: moveSpeed
-      value: 6
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114436885711183754, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &2130078795
@@ -2660,38 +2624,6 @@ Prefab:
       propertyPath: Player
       value: 
       objectReference: {fileID: 2081840771}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_Interpolate
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54902820791186646, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: m_CollisionDetection
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435271251588414, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 114436885711183754, guid: 6dcbc5bb7895de54e8c7383ee4962a10,
-        type: 2}
-      propertyPath: moveSpeed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 1784738243301178, guid: 6dcbc5bb7895de54e8c7383ee4962a10, type: 2}
       propertyPath: m_Name
       value: BossMinion (2)

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4219406446252094}
   - component: {fileID: 65040448880991062}
   - component: {fileID: 114854763893169282}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HurtZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 65292594368392548}
   - component: {fileID: 114923978304325470}
   - component: {fileID: 114436885711183754}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BossMinion
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 116
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!65 &65040448880991062
 BoxCollider:
   m_ObjectHideFlags: 1
