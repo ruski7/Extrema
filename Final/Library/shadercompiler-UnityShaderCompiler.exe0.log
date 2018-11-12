@@ -1,86 +1,177 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
+Cmd: preprocess
+  insize=9226 outsize=1692 ok=1
+Cmd: preprocess
+  insize=11027 outsize=567 ok=1
+Cmd: preprocess
+  insize=1399 outsize=441 ok=1
+Cmd: preprocess
+  insize=435 outsize=435 ok=1
+Cmd: preprocess
+  insize=7913 outsize=553 ok=1
+Cmd: preprocess
+  insize=1615 outsize=1854 ok=1
+Cmd: preprocess
+  insize=1130 outsize=342 ok=1
+Cmd: preprocess
+  insize=11311 outsize=638 ok=1
+Cmd: preprocess
+  insize=1687 outsize=301 ok=1
+Cmd: preprocess
+  insize=929 outsize=298 ok=1
+Cmd: preprocess
+  insize=992 outsize=257 ok=1
+Cmd: preprocess
+  insize=4405 outsize=1085 ok=1
+Cmd: preprocess
+  insize=2050 outsize=435 ok=1
+Cmd: preprocess
+  insize=1385 outsize=355 ok=1
+Cmd: preprocess
+  insize=1099 outsize=1288 ok=1
+Cmd: preprocess
+  insize=3924 outsize=544 ok=1
+Cmd: preprocess
+  insize=1454 outsize=1799 ok=1
+Cmd: preprocess
+  insize=1013 outsize=1373 ok=1
+Cmd: preprocess
+  insize=1229 outsize=351 ok=1
+Cmd: preprocess
+  insize=6629 outsize=620 ok=1
+Cmd: preprocess
+  insize=1300 outsize=257 ok=1
+Cmd: preprocess
+  insize=12931 outsize=2549 ok=1
+Cmd: preprocess
+  insize=1044 outsize=941 ok=1
+Cmd: preprocess
+  insize=2911 outsize=624 ok=1
+Cmd: preprocess
+  insize=882 outsize=245 ok=1
+Cmd: preprocess
+  insize=1511 outsize=333 ok=1
+Cmd: preprocess
+  insize=1460 outsize=294 ok=1
+Cmd: preprocess
+  insize=1867 outsize=223 ok=1
+Cmd: preprocess
+  insize=2378 outsize=1060 ok=1
+Cmd: preprocess
+  insize=1407 outsize=298 ok=1
+Cmd: preprocess
+  insize=1322 outsize=271 ok=1
+Cmd: preprocess
+  insize=2297 outsize=587 ok=1
+Cmd: preprocess
+  insize=964 outsize=220 ok=1
+Cmd: preprocess
+  insize=701 outsize=269 ok=1
+Cmd: preprocess
+  insize=6603 outsize=844 ok=1
+Cmd: preprocess
+  insize=2236 outsize=943 ok=1
+Cmd: preprocess
+  insize=32858 outsize=223 ok=1
+Cmd: preprocess
+  insize=1198 outsize=209 ok=1
+Cmd: preprocess
+  insize=4488 outsize=408 ok=1
+Cmd: preprocess
+  insize=990 outsize=217 ok=1
+Cmd: preprocess
+  insize=5826 outsize=1426 ok=1
+Cmd: preprocess
+  insize=13376 outsize=1638 ok=1
+Cmd: preprocess
+  insize=1024 outsize=301 ok=1
+Cmd: preprocess
+  insize=12069 outsize=2430 ok=1
+Cmd: preprocess
+  insize=6201 outsize=570 ok=1
+Cmd: preprocess
+  insize=2833 outsize=600 ok=1
+Cmd: preprocess
+  insize=11755 outsize=2420 ok=1
+Cmd: preprocess
+  insize=2667 outsize=1124 ok=1
+Cmd: preprocess
+  insize=13864 outsize=1928 ok=1
+Cmd: preprocess
+  insize=1908 outsize=375 ok=1
+Cmd: preprocess
+  insize=1567 outsize=610 ok=1
+Cmd: preprocess
+  insize=1876 outsize=565 ok=1
+Cmd: preprocess
+  insize=1943 outsize=245 ok=1
+Cmd: preprocess
+  insize=26132 outsize=3372 ok=1
+Cmd: preprocess
+  insize=4000 outsize=436 ok=1
+Cmd: preprocess
+  insize=2139 outsize=247 ok=1
+Cmd: preprocess
+  insize=1166 outsize=301 ok=1
+Cmd: preprocess
+  insize=1173 outsize=371 ok=1
+Cmd: preprocess
+  insize=737 outsize=217 ok=1
+Cmd: preprocess
+  insize=5860 outsize=694 ok=1
+Cmd: preprocess
+  insize=6086 outsize=578 ok=1
+Cmd: preprocess
+  insize=584 outsize=309 ok=1
+Cmd: preprocess
+  insize=8523 outsize=840 ok=1
+Cmd: preprocess
+  insize=1013 outsize=1615 ok=1
+Cmd: preprocess
+  insize=1457 outsize=474 ok=1
+Cmd: preprocess
+  insize=32868 outsize=223 ok=1
+Cmd: preprocess
+  insize=5284 outsize=1689 ok=1
+Cmd: preprocess
+  insize=2273 outsize=1004 ok=1
+Cmd: preprocess
+  insize=6935 outsize=202 ok=1
+Cmd: preprocess
+  insize=5497 outsize=354 ok=1
+Cmd: preprocess
+  insize=5318 outsize=727 ok=1
+Cmd: preprocess
+  insize=1308 outsize=352 ok=1
+Cmd: preprocess
+  insize=5893 outsize=1091 ok=1
+Cmd: preprocess
+  insize=714 outsize=254 ok=1
+Cmd: preprocess
+  insize=720 outsize=266 ok=1
+Cmd: preprocess
+  insize=4342 outsize=502 ok=1
+Cmd: preprocess
+  insize=860 outsize=243 ok=1
+Cmd: preprocess
+  insize=1460 outsize=240 ok=1
+Cmd: preprocess
+  insize=2013 outsize=883 ok=1
+Cmd: preprocess
+  insize=880 outsize=1145 ok=1
+Cmd: preprocess
+  insize=5159 outsize=602 ok=1
+Cmd: preprocess
+  insize=1079 outsize=436 ok=1
+Cmd: preprocess
+  insize=1138 outsize=332 ok=1
+Cmd: preprocess
+  insize=511 outsize=209 ok=1
+Cmd: preprocess
+  insize=717 outsize=258 ok=1
+Cmd: preprocess
+  insize=5642 outsize=760 ok=1
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler

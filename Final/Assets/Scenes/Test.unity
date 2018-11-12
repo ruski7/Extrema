@@ -1815,7 +1815,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4936713094329982, guid: a15f8bd2898c0f041a340f7a6914b673, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.44
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 4936713094329982, guid: a15f8bd2898c0f041a340f7a6914b673, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1845,6 +1845,18 @@ Prefab:
         type: 2}
       propertyPath: HitRemovalTime
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4936713094329982, guid: a15f8bd2898c0f041a340f7a6914b673, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4936713094329982, guid: a15f8bd2898c0f041a340f7a6914b673, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4936713094329982, guid: a15f8bd2898c0f041a340f7a6914b673, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a15f8bd2898c0f041a340f7a6914b673, type: 2}
@@ -2113,7 +2125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFiring: 0
   bullet: {fileID: 114060584513598542, guid: a15f8bd2898c0f041a340f7a6914b673, type: 2}
-  bulletSpeed: 20
+  bulletSpeed: 30
   timeBetweenShots: 0.05
   firePoint: {fileID: 716196738}
 --- !u!1 &1831913777
