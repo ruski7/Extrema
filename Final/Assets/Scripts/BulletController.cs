@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class BulletController : MonoBehaviour {
 
-    public float Testspeed;
+    public float speed;
 
     public float lifeTime;
 
-    public float damageToGive;
+    public int damageToGive;
 
     public float HitRemovalTime;
 
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(Vector3.up * Testspeed * Time.deltaTime);
+        transform.Translate(Vector3.up * speed * Time.deltaTime);
 
         lifeTime -= Time.deltaTime;
         if (lifeTime <= 0)

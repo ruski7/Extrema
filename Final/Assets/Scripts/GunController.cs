@@ -29,7 +29,7 @@ public class GunController : MonoBehaviour {
             {
                 shotCounter = timeBetweenShots;
                 BulletController newBullet = Instantiate(bullet, firePoint.position, firePoint.rotation) as BulletController;
-                newBullet.Testspeed = bulletSpeed;
+                newBullet.speed = bulletSpeed;
                 bulletAudio.Play();
             }
         }
