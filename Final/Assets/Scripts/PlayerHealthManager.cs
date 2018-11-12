@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerHealthManager : MonoBehaviour {
 
-    public int startHealth;
-    public int currentHealth;
+    public float startHealth;
+    public float currentHealth;
 
     public float flashLength;
     public float flashCounter;
@@ -26,7 +26,11 @@ public class PlayerHealthManager : MonoBehaviour {
         {
             gameObject.SetActive(false);
             FindObjectOfType<Manager>().EndGame();
+<<<<<<< HEAD
             FindObjectOfType<EViewMech>().StopMovement();
+=======
+            //FindObjectOfType<EViewMech>().stopMovement();
+>>>>>>> 62b26595115fa279ee7c0a9c12198b343ae4ad86
         }
 
         if (flashCounter > 0)
@@ -39,7 +43,7 @@ public class PlayerHealthManager : MonoBehaviour {
         }
 	}
 
-    public void HurtPlayer(int damageAmount)
+    public void HurtPlayer(float damageAmount)
     {
         currentHealth -= damageAmount;
         flashCounter = flashLength;
