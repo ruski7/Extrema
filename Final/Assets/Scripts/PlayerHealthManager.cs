@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerHealthManager : MonoBehaviour {
 
-    public int startHealth;
-    public int currentHealth;
+    public float startHealth;
+    public float currentHealth;
 
     public float flashLength;
     public float flashCounter;
@@ -39,7 +39,7 @@ public class PlayerHealthManager : MonoBehaviour {
         }
 	}
 
-    public void HurtPlayer(int damageAmount)
+    public void HurtPlayer(float damageAmount)
     {
         currentHealth -= damageAmount;
         flashCounter = flashLength;
