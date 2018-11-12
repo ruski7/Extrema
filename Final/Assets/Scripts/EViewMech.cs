@@ -35,10 +35,12 @@ public class EViewMech : MonoBehaviour {
         targetLookAtPoint += transform.position;
         transform.LookAt(targetLookAtPoint);
         
+        
     }
 
-    public void stopMovement()
+    public void StopMovement()
     {
         moveSpeed = 0;
+        
     }
 }

@@ -26,7 +26,7 @@ public class PlayerHealthManager : MonoBehaviour {
         {
             gameObject.SetActive(false);
             FindObjectOfType<Manager>().EndGame();
-            FindObjectOfType<EViewMech>().stopMovement();
+            FindObjectOfType<EViewMech>().StopMovement();
         }
 
         if (flashCounter > 0)
