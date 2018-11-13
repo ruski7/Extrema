@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class EnemyHealthManager : MonoBehaviour {
 
-    public int health;
+    public int health = 1;
     private int currentHealth;
+    public bool infiniteHP;
     
 
 	// Use this for initialization
@@ -28,6 +29,12 @@ public class EnemyHealthManager : MonoBehaviour {
 
     public void HurtEnemy(int damage)
     {
-        currentHealth -= damage;
+        if (infiniteHP == false)
+        {
+            currentHealth -= damage;
+        }
+        else{
+            health = 69;
+        }
     }
 }
